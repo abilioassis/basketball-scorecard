@@ -5,11 +5,6 @@
   box-sizing: border-box;
 }
 
-body {
-  /* margin: 0 auto; */
-  /* max-width: 575px; */
-}
-
 h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #eee;
