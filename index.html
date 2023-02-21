@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.cdnfonts.com/css/cursed-timer-ulil"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="dashboard">
+        <h1>HOME</h1>
+        <div class="bg-score">
+          <h2 id="home-score" class="score">0</h2>
+        </div>
+        <div class="btns">
+          <button id="home-score-add1" class="btn" onclick="homeScoreAdd1()">
+            +1
+          </button>
+          <button id="home-score-add2" class="btn" onclick="homeScoreAdd2()">
+            +2
+          </button>
+          <button id="home-score-add3" class="btn" onclick="homeScoreAdd3()">
+            +3
+          </button>
+        </div>
+      </section>
+      <section class="dashboard">
+        <h1>GUEST</h1>
+        <div class="bg-score">
+          <h2 id="guest-score" class="score">0</h2>
+        </div>
+        <div class="btns">
+          <button id="guest-score-add1" class="btn" onclick="guestScoreAdd1()">
+            +1
+          </button>
+          <button id="guest-score-add2" class="btn" onclick="guestScoreAdd2()">
+            +2
+          </button>
+          <button id="guest-score-add3" class="btn" onclick="guestScoreAdd3()">
+            +3
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
