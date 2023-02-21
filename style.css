@@ -6,8 +6,7 @@
 }
 
 body {
-  max-width: 575px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
 h1 {
@@ -30,6 +29,7 @@ h2 {
   align-items: center;
   height: 385px;
   border-radius: 5px;
+  max-width: 575px;
 }
 
 .dashboard {
