@@ -43,10 +43,18 @@ h2 {
 .bg-score {
   background: #080001;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   height: 130px;
   border-radius: 5px;
+}
+
+#home-score,
+#guest-score {
+  margin: auto;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  color: #f94f6d;
+  font-size: 70px;
 }
 
 .btns {
